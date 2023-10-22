@@ -1,38 +1,67 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  background-color: #6363b7;
+  
+  
+}
+.All{
+
+  width: 70%;
+  margin-top: 50px;
+  min-height: 300px;
+  height: max-content;
+  background-color: #1D1A42;
   color: white;
+  padding: 20px;
+
+}
+.All input{
+   width: 80%;
+   height: 30px;
+   border:1px solid #6363b7;
+   outline: none;
+   background-color: #1D1A42;
+   color:white;
+   font-family: 'Franklin Gothic Medium';
+   
+}
+.All button{
+  height: 30.5px;
+  width: 20%;
+  background-color: #6363b7;
+  color: white;
+  border: none;
+  
+}
+.task{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 40px;
+   margin-top: 10px;
+   background-color: #815BFF;
+   border-radius: 5px;
+
+}
+.task p{
+   width: 80%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.task img{
+  height:  20px;
+  padding: 3px;
+   
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
